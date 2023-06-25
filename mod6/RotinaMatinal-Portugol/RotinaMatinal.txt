@@ -1,0 +1,21 @@
+Inicio
+
+   Se despertador = "tocar" Então
+      Escreva("Hora de acordar!")
+      Escreva("Levantar da cama.")
+      
+      Se dia = "Semana" Então
+	 Escreva("Tomar banho.")
+	 Escreva("Tomar café.")
+         Escreva("Escovar os dentes.")
+	 Escreva("Colocar roupa de trabalhar.")
+      FimSe      
+      Se dia = "FinalDeSemana" Então
+	 Escreva("Tomar café.")
+         Escreva("Escovar os dentes.")
+	 Escreva("Colocar roupas leves de caminhar.")
+      FimSe
+      Escreva("Rotina matinal concluída.")
+
+   FimSe
+Fim
